@@ -6,7 +6,7 @@ def isPalindrome(a):
     """
     if a == a[::-1]:
         return True
-    elif a != a[::-1]:
+    else:
         return False
 
 a = "rabarbar"
